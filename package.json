@@ -1,6 +1,6 @@
 {
-  "name": "next-ims-lti",
-  "version": "0.1.2",
+  "name": "@klicker-uzh/lti",
+  "version": "0.2.0-alpha.0",
   "description": "",
   "main": "./lib/index.js",
   "typings": "./lib/index.js",
@@ -41,9 +41,6 @@
     "@babel/eslint-parser": "^7.16.5",
     "@babel/preset-env": "^7.16.8",
     "@babel/preset-react": "^7.16.7",
-    "@madhouselabs/eslint-config-next": "^1.0.0",
-    "@madhouselabs/eslint-config-react": "^1.0.5",
-    "@madhouselabs/eslint-config-react-base": "^1.0.2",
     "autoprefixer": "^10.4.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -67,5 +64,8 @@
     "pino-pretty": "^7.3.0",
     "prettier": "^2.5.1",
     "react": "^18.0.0"
+  },
+  "volta": {
+    "node": "16.17.0"
   }
 }

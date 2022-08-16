@@ -1,5 +1,11 @@
 {
-  "extends": ["airbnb","@madhouselabs/eslint-config-next","plugin:react/recommended","plugin:prettier/recommended"]
-  ,
-  "plugins": ["prettier"]
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-underscore-dangle": 0
+  }
 }
